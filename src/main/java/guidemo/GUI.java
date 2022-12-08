@@ -1,3 +1,5 @@
+package guidemo;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -25,7 +27,7 @@ public class GUI implements ActionListener {
 
         frame.add(panel, BorderLayout.CENTER);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setTitle("My GUI");
+        frame.setTitle("My guidemo.GUI");
         frame.pack();
         frame.setVisible(true);
     }
